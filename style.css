@@ -1,0 +1,195 @@
+/* ======== global ======== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+
+
+/* ======== typography ======== */
+
+/* ---- global ---- */
+
+body {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.current-page {
+  border-bottom: 4px solid #0E0504;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* page-contact */
+
+.page-contact-banner-order-link {
+  color: #0E0504;
+  font-weight: 700;
+  transition: .25s;
+}
+
+.page-contact-banner-order-link:focus,
+.page-contact-banner-order-link:hover {
+ color: #EFC3A4; 
+}
+
+/* page-header */
+
+.page-header {
+  color: #0E0504;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.open-nav {
+  color: #0E0504;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.close-nav {
+  color: #0E0504;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.header-link {
+  color: #0E0504;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ---- index.html ---- */
+
+
+
+
+
+/* ======== style ======== */
+
+/* ---- global ---- */
+
+body {
+  background-color: #4B1F0E;
+}
+
+.flex {
+  display: flex;
+}
+
+.page-contact-banner,
+.page-header {
+  padding-inline: 1em;
+}
+
+/* page-contact */
+
+.page-contact-banner {
+  padding-block: .5em;
+}
+
+.page-contact-banner-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-contact-banner-order-link {
+  background-color: #EFC3A4;
+  padding: .25em .75em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.page-contact-banner-order-link:focus,
+.page-contact-banner-order-link:hover {
+ background-color: #0E0504; 
+}
+
+.header-logo {
+  align-items: center;
+}
+
+/* page-header */
+
+.page-header {
+  justify-content: space-between;
+  align-items: center;
+  padding-block: .5em;
+  background-color: #fff;
+}
+
+.coffee-icon {
+  margin-left: .25em;
+}
+
+.open-nav {
+  border: none;
+  background-color: transparent;
+  padding-bottom: .1em;
+  cursor: pointer;
+}
+
+.header-nav-container {
+  position: fixed;
+  background-color: #BE7656;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  transform: translateX(0);
+  transition: transform .25s
+}
+
+.open-navigation {
+  transform: translateX(-100%);
+}
+
+.close-nav {
+  position: fixed;
+  border: none;
+  background-color: transparent;
+  margin: .1em .3em;
+  cursor: pointer;
+}
+
+.header-nav-link-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+/* ---- index.html ---- */
+
+
+
+/* *,
+.open-nav {
+  border: 1px solid red;
+} */
+

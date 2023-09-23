@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Grid Layout</title>
+</head>
+<body>
+  <nav class="page-contact-banner">
+    <ul class="page-contact-banner-container flex">
+      <li><a class="page-contact-banner-number">+1&lpar;999&rpar; 999-9999</a></li>
+      <li><a class="page-contact-banner-order-link">Order Online!</a></li>
+    </ul>
+  </nav>
+  <header class="page-header flex">
+    <p class="header-logo flex">Brown Bean<svg xmlns="http://www.w3.org/2000/svg" class="coffee-icon icon icon-tabler icon-tabler-coffee" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.83 -.642 2.077 -1.017 3.5 -1c1.423 -.017 2.67 .358 3.5 1"></path>
+      <path d="M8 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2"></path>
+      <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2"></path>
+      <path d="M3 10h14v5a6 6 0 0 1 -6 6h-2a6 6 0 0 1 -6 -6v-5z"></path>
+      <path d="M16.746 16.726a3 3 0 1 0 .252 -5.555"></path>
+      </svg>
+    </p>
+    <button class="open-nav">&#9776;</button>
+    <nav class="header-nav-container">
+      <button class="close-nav">&times;</button>
+      <ul class="header-nav-link-container flex">
+        <li><a class="header-link capitalize current-page" href="#">home</a></li>
+        <li><a class="header-link capitalize" href="#">menu</a></li>
+        <li><a class="header-link capitalize" href="#">about</a></li>
+        <li><a class="header-link capitalize" href="#">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script src="./script.js"></script>
+</body>
+</html>
