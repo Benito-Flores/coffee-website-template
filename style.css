@@ -66,7 +66,7 @@ a {
 
 .open-nav {
   color: #0E0504;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -212,10 +212,10 @@ body {
 }
 
 .splash-btn {
-  border: 3px solid #0E0504;
-  background-color: #0e0504b9;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
   margin-right: auto;
-  padding: .25em .75em .3em;
+  padding: .1em .5em .3em;
   margin-top: .25em;
   transition: .25s;
 }
