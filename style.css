@@ -163,7 +163,7 @@ body {
 .open-nav {
   border: none;
   background-color: transparent;
-  padding-bottom: .1em;
+  margin-bottom: .2em;
   cursor: pointer;
 }
 
