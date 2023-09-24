@@ -7,6 +7,14 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 
 
 
@@ -109,10 +117,6 @@ body {
   background-color: #4B1F0E;
 }
 
-.flex {
-  display: flex;
-}
-
 .page-contact-banner,
 .page-header,
 .splash-section {
@@ -204,6 +208,8 @@ body {
 
 .splash-section {
   background-image: url(./img/splash-background.jpg);
+  background-color: #a7a7a7f5;
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   min-height: 70svh;
@@ -224,6 +230,8 @@ body {
 .splash-btn:hover {
   background-color: #0e050493;
 }
+
+/* about-us */
 
 /* *,
 .open-nav {
